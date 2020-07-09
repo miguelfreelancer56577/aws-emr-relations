@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mangelt</groupId>
-	<artifactId>aws-emr-transformation</artifactId>
+	<artifactId>aws-emr-relations</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
@@ -54,17 +54,6 @@
 			<artifactId>mockito-core</artifactId>
 			<version>2.23.4</version>
 		</dependency>
-		<dependency>
-		    <groupId>commons-configuration</groupId>
-		    <artifactId>commons-configuration</artifactId>
-		    <version>1.10</version>
-		</dependency>
-		<dependency>
-		    <groupId>commons-digester</groupId>
-		    <artifactId>commons-digester</artifactId>
-		    <version>1.8</version>
-		</dependency>
-		
 	</dependencies>
 	<build>
 		<plugins>
