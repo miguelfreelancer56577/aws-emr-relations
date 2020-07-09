@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mangelt</groupId>
-	<artifactId>aws-emr-relations</artifactId>
+	<artifactId>aws-emr-transformation</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
@@ -19,16 +19,15 @@
 
 	<dependencies>
 		<dependency>
-			<!-- Apache Spark main library -->
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-core_2.11</artifactId>
-			<version>2.2.0</version>
-			<scope>provided</scope>
+		    <artifactId>spark-core_2.12</artifactId>
+		    <version>2.4.5</version>
+		    <scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-sql_2.11</artifactId>
-			<version>2.2.0</version>
+			 <groupId>org.apache.spark</groupId>
+			 <artifactId>spark-sql_2.12</artifactId>
+			 <version>2.4.5</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -54,6 +53,17 @@
 			<artifactId>mockito-core</artifactId>
 			<version>2.23.4</version>
 		</dependency>
+		<dependency>
+		    <groupId>commons-configuration</groupId>
+		    <artifactId>commons-configuration</artifactId>
+		    <version>1.10</version>
+		</dependency>
+		<dependency>
+		    <groupId>commons-digester</groupId>
+		    <artifactId>commons-digester</artifactId>
+		    <version>1.8</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>
